@@ -11,6 +11,7 @@
 
 
 <style>
+html{scroll-behavior: smooth;}
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
@@ -26,8 +27,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding ">Amina Logo</span>
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-12">
+  <a href="#" class="text-dark font-weight-bold"><strong class="w3-left w3-padding font-weight-bold">Amina Logo</strong></a>
   <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
 </header>
 
@@ -35,7 +36,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:50px">
   
   <!-- Photo grid -->
   <div class="w3-row w3-grayscale-min">
@@ -88,6 +89,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <!-- About section -->
   <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <br>
     <h4><b>About Me</b></h4>
     <img src="https://source.unsplash.com/featured/?woman" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
     <div class="w3-content w3-justify" style="max-width:600px">
@@ -160,6 +162,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <!-- Contact section -->
   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <br>
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
       <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
@@ -174,7 +177,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
+          <textarea class="w3-input w3-border" type="text" name="Message" rows="6" required></textarea>
         </div>
         <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
       </form>
@@ -218,7 +221,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </div>
   </footer>
   
-  <div class="w3-black w3-center w3-padding-24">By <a href="https://www.salmane.me" title="Salman" target="_blank" class="w3-hover-opacity">Salmane.me</a></div>
+  <div class="w3-black w3-center w3-padding-24">By <a href="https://www.salmane.me" title="Salman" target="_blank" class="w3-hover-opacity text-light">Salmane.me</a></div>
 
 <!-- End page content -->
 </div>
