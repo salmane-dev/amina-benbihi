@@ -1,0 +1,25 @@
+
+html{scroll-behavior: smooth;}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+.social .fa{
+    padding: 10px 22px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: blanchedalmond;
+    transition: all 200ms ease-in;
+}
+
+.social .fa:hover {
+    opacity: .9;
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ 
+
+
